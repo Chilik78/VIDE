@@ -1,0 +1,40 @@
+nav{
+    width: auto;
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#333;
+    font-size: auto;
+    text-transform: uppercase;
+    min-width: 300;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    margin-right: 3%;
+    margin-left: auto;
+    height: 3vh;
+    margin-top: 3vh;
+    background-color: #333;
+    border-color: #EBFF7D;
+    border-width: 0.2vh;
+    color:#EBFF7D;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+option{
+    color:#EBFF7D;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    font-size: 2vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    opacity: 100%;
+}
