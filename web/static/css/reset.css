@@ -1,35 +1,34 @@
 body{margin: 0;
-    padding: 0;
-    width:100%;
-    height: 100%;
-    position: absolute;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    opacity: 100%;
-    }
+  padding: 0;
+  width:100%;
+  height: 100%;
+  position: absolute;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  opacity: 100%;
+  }
 html{
-    height: 100%;
+  height: 100%;
 }
-  *,
-  *:before,
-  *:after {
-      box-sizing: border-box;
-  }
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 
-  img, picture, video, canvas, svg {
-    display: block;
-  }
+img, picture, video, canvas, svg {
+  display: block;
+}
 
-  input, button, textarea, select {
-    font: inherit;
-  }
+input, button, textarea, select {
+  font: inherit;
+}
 
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
 
-  #root, #__next {
-    isolation: isolate;
-  }
+#root, #__next {
+  isolation: isolate;
+}
 
- 

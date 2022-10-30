@@ -15,6 +15,11 @@
 <body>
     <nav>
     <img class="logo" src="static/images/logo.svg"> 
+    
+    <a class="nav__link" href="#">Главная</a>
+    <a class="nav__link" href="#">Мои запросы</a>
+    <a class="nav__link" id="US" href="#">О нас</a>
+                   
     <select name="" id="input0" required="required" >
         <img class="lang" src="static/images/lng_ru.png"> 
         <option  value="rus">RU</option>
@@ -24,29 +29,25 @@
         <input type="file" name="file">
         <input type="submit" value="Upload">
     </form>
-    <!--div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn"><img class="menu" src="images/menu.svg"></button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">Ссылка 1</a>
-          <a href="#">Ссылка 2</a>
-          <a href="#">Ссылка 3</a>
-        </div>
-      </div-->
+    
     </nav>
     <div class="background">
         
     </div>
-    
-    <div class="left">
-            <img class="icon" src="static/images/skan.svg">
-        <a>Отсканировать изображение</a>
-    
+    <div class="info">
+        <div class = "container1">
+            
+            <p class="hi">Сервис по распознаванию текста с изображения</p>  
+            
+        </div>
     </div>
     <div class="right">
-        <img class="icon2" src="static/images/photo.svg">
+        <img class="icon2" src="static/images/skan.svg">
         <a>Загрузить фото</a>
     </div>
-   
+    <div class="result">
+        <p>Результат</p>
+   </div>
 </body>
 <script src="../static/scripts/script.js"></script>
 </html>
